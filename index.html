@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willians Jimenez - Proyecto Final</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">Proyecto Final - Willians Jimenez</div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#fotografia">Fotografía</a></li>
+                    <li><a href="#vectorial">Imágen Vectorial</a></li>
+                    <li><a href="#multimedia">Audio/Video</a></li>
+                </ul>
+            </nav>
+            <button class="theme-toggle" id="btnTheme">Modo Oscuro</button>
+        </div>
+    </header>
+    <main>
+        <section id="inicio">
+            <h1>Bienvenido a mi Proyecto Final</h1>
+            <p id="greetingMessage">Saludos Instructor, presento mi portafolio correspondiente al proyecto final.</p>
+            <p>Este sitio web fue desarrollado desde cero, <strong>utilizando los conocimientos de la asignatura</strong>. Todo el diseño y la interactividad están construidos unicamente con HTML5, CSS3 y JavaScript Vanilla. Me limité hacerlo así y no utilizar frameworks ni librerías externas.</p>
+        </section>
+        <section id="fotografia">
+            <h2>Fotografías</h2>
+            <p>Galería de Fotografías. Uso de Estas imágenes son de uso libre y no son de mi propiedad.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1551334787-21e6bd3ab135?auto=format&fit=crop&w=400&q=80" alt="Paisaje Urbano" loading="lazy">
+                    <div class="caption">Naturaleza</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://res.cloudinary.com/ds41xxspf/image/upload/v1704928965/Donde-Suena-Events/m1svprndp66fqeiqfctm.jpg" alt="Gato en modo caricatura" loading="lazy">
+                    <div class="caption">Imágen creativa</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1516802273409-68526ee1bdd6?auto=format&fit=crop&w=400&q=80" alt="Retrato en blanco y negro" loading="lazy">
+                    <div class="caption">Balón de basketball</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=400&q=80" alt="Larga exposición nocturna" loading="lazy">
+                    <div class="caption">Paisaje de flores</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="vectorial">
+            <h2>Imagenes Vectorial</h2>
+            <p>Tabla con análisis de gráficos escalables o vectoriales. Esta tabla es una comparativa de los formatos que existen y son estándar en la industria, a pesar de que talvez no hayan aparecido en el curso:</p>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Formato</th>
+                            <th>Extensión</th>
+                            <th>Uso Principal</th>
+                            <th>Ventajas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Scalable Vector Graphics</td>
+                            <td>.svg</td>
+                            <td>Diseño Web y UI</td>
+                            <td>Basado en XML, se puede animar con CSS/JS, no pierde resolución.</td>
+                        </tr>
+                        <tr>
+                            <td>Adobe Illustrator</td>
+                            <td>.ai</td>
+                            <td>Impresión y Diseño Profesional</td>
+                            <td>Soporta múltiples mesas de trabajo, capas avanzadas.</td>
+                        </tr>
+                        <tr>
+                            <td>Encapsulated PostScript</td>
+                            <td>.eps</td>
+                            <td>Sistemas antiguos / Impresión</td>
+                            <td>Alta compatibilidad entre programas gráficos.</td>
+                        </tr>
+                        <tr>
+                            <td>Portable Document Format</td>
+                            <td>.pdf</td>
+                            <td>Distribución de documentos</td>
+                            <td>Mantiene el diseño exacto sin importar el dispositivo.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <svg viewBox="0 0 100 100" width="100" height="100" xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)">
+                        <rect x="15" y="30" width="70" height="50" rx="5" fill="#2c3e50"/>
+                        <rect x="25" y="20" width="15" height="10" rx="2" fill="#2c3e50"/>
+                        <circle cx="50" cy="55" r="18" fill="#ecf0f1"/>
+                        <circle cx="50" cy="55" r="12" fill="#34495e"/>
+                        <circle cx="75" cy="40" r="4" fill="#e74c3c"/>
+                    </svg>
+                    <div class="caption">SVG imágen 1</div>
+                </div>
+                <div class="gallery-item">
+                    <svg viewBox="0 0 100 100" width="100" height="100" xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)">
+                        <path d="M50 25 L80 75 L20 75 Z" fill="none" stroke="#2c3e50" stroke-width="4"/>
+                        <circle cx="50" cy="25" r="8" fill="#e74c3c"/>
+                        <circle cx="80" cy="75" r="8" fill="#e74c3c"/>
+                        <circle cx="20" cy="75" r="8" fill="#e74c3c"/>
+                    </svg>
+                    <div class="caption">SVG imágen 2</div>
+                </div>
+                <div class="gallery-item">
+                    <svg viewBox="0 0 100 100" width="100" height="100" xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)">
+                        <path d="M25 55 A 25 25 0 0 1 75 55" fill="none" stroke="#2c3e50" stroke-width="6"/>
+                        <rect x="15" y="50" width="14" height="28" rx="7" fill="#e74c3c"/>
+                        <rect x="71" y="50" width="14" height="28" rx="7" fill="#e74c3c"/>
+                    </svg>
+                    <div class="caption">SVG imágen 3</div>
+                </div>
+                <div class="gallery-item">
+                    <svg viewBox="0 0 100 100" width="100" height="100" xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)">
+                        <rect x="15" y="40" width="70" height="45" rx="4" fill="#2c3e50"/>
+                        <polygon points="15,35 85,35 85,20 15,20" fill="#e74c3c"/>
+                        <line x1="25" y1="20" x2="15" y2="35" stroke="#ecf0f1" stroke-width="4"/>
+                        <line x1="45" y1="20" x2="35" y2="35" stroke="#ecf0f1" stroke-width="4"/>
+                        <line x1="65" y1="20" x2="55" y2="35" stroke="#ecf0f1" stroke-width="4"/>
+                        <line x1="85" y1="20" x2="75" y2="35" stroke="#ecf0f1" stroke-width="4"/>
+                        <polygon points="45,52 45,72 60,62" fill="#ecf0f1"/>
+                    </svg>
+                    <div class="caption">SVG imágen 4</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="multimedia">
+            <h2>Audio y Video Digital</h2>
+            <p>Implementación de etiquetas nativas de HTML5 para la reproducción de contenido multimedia.</p>
+            <div class="media-container">
+                <div class="media-box">
+                    <h3>Video</h3>
+                    <p>Muestra de la inclusión de un video en la página web. La canción es una interpretacion de Jorja Smith, de la canción titulada "Blue Lights"</p>
+                    <video controls poster="./media/Thumbnail.png">
+                        <source src="./media/Jorja Smith - Blue Lights  A COLORS SHOW.mp4" type="video/mp4">
+                        Tu navegador no soporta la etiqueta de video.
+                    </video>
+                </div>
+
+                <div class="media-box">
+                    <h3>Audio</h3>
+                    <p>Esta es la inclusión de un archivo de audio en la página web. Es una canción típica de Ecuador, algo que se escucha en las calles de Ecuador en ocasiones donde se necesita un ambiente melancólico.</p>
+                    <p>Canción "Odiame" interpretada por Julio Jaramillo, "El Ruiseñor de América". Este es un clásico de los pasillos.</p>
+                    <audio controls>
+                        <source src="./media/Odiame.mp3" type="audio/mpeg">
+                        Tu navegador no soporta la etiqueta de audio.
+                    </audio>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Proyecto Final. Desarrollado con HTML, CSS y JS. Por Willians Jimenez.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
